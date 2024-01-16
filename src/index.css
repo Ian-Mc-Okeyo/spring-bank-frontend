@@ -1,0 +1,125 @@
+body{
+  background-color: whitesmoke;
+}
+
+#sample-text-card{
+  margin: 0px 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  text-align: justify;
+
+}
+#sampl-text-card h1{
+  font-size: 2.5em;
+}
+
+#sample-text-card p{
+  font-size: 1.05em;
+  
+}
+
+#button-wrapper a{
+  padding: 15px;
+  width: 200px;
+  color: white;
+  box-shadow: 0px 1px 6px rgb(0, 0, 38);
+}
+.register{
+  margin-right: 2px;
+  background-color: #FF4E00;
+  border: 1px solid #543800
+}
+.login{
+  background-color: #FF8314;
+  border: 1px solid #543800
+}
+.form-area{
+  color: #2929fb;
+  padding: 13px 15px 13px 13px;
+  background-color: #f5f5f5cf;
+  border-radius: 5px;
+  text-align: left;
+}
+.form-area input{
+  color: #00000098;
+}
+.form-area label{
+  color: #00000098;
+}
+.vertical-center{
+  -ms-transform: translateY(50%);
+  transform: translateY(30%);
+}
+@media screen and (max-width: 601px) {
+  .vertical-center{
+    -ms-transform: translateY(15%);
+    transform: translateY(15%);
+    margin: 10px;
+  }
+}
+.maximum-width{
+  position:fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+#body-page{
+  background: url('../src/assets/bankbg.jpg');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: -32px;
+}
+.home-text-box{
+  padding:5px;
+  font-family: Georgia;
+}
+.navbar-modified{
+  padding: 15px 25px
+}
+.nav-bar-link{
+  color: #f5f5f5ee;
+}
+.orange-button{
+  background-color: #FF4E00;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  color: #f5f5f5db;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 5px;
+}
+.yellow-button{
+  background-color: orange;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  color: #f5f5f5db;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 5px;
+}
+.sideContainer{
+  min-width: 100%;
+  padding: 10px;
+  background-color: #2929fb;
+  height: 100%;
+  color: whitesmoke;
+}
+.dashboard-forms{
+  background-color: whitesmoke;
+}
+.customContainer{
+  margin: 2px 50px;
+}
+@media screen and (max-width: 601px){
+  .customContainer{
+    margin: 2px -27px;
+  }
+}
+
+.tableBody{
+  font-family:Georgia;
+  overflow-x: auto;
+}
